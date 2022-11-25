@@ -1,0 +1,98 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagenes/clima_sol.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contaier {
+    background-color: #ffffff;
+    padding: 20px;
+    color: #2A3D45;
+    display: flex;
+    display: none;
+}
+
+.contaier .block {
+    padding: 20px;
+}
+
+.block:first-child { /*First child funciona para que los primeros elementos se queden solo dentro de un unico cuadro de informacion */
+ background-color: #000000; /*Color de fondo que tendra la caja con la informacion*/
+ color: #ffffff; /*Color de las letras*/
+}
+
+.information-container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.information {
+    margin-left: 35px;
+    margin: auto;
+}
+
+h1{
+    font-size: 20px;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#location {
+    font-weight: bold;
+    font-size: 22px;  
+}
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+}
+.loader {
+  color: #000000;
+  font-size: 11px;
+  text-indent: -99999em;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  box-shadow: inset 0 0 0 1em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  content: '';
+}
+
+@-webkit-keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

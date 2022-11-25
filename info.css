@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');/*font-family: 'Almarai', sans-serif;*/
+
+body{
+    background-color: black;
+}
+
+.contenedor_sobre_mi{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.caja1{
+    width: 700px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #fff;
+}
+
+.caja1 h1{
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+}
+
+.contacto{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.caja2{
+    width: 600px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #fff;
+}
+
+.caja2 h2{
+    font-size: 30px;
+    font-family: 'Almarai', sans-serif;
+}
+
+.caja2 h3{
+    font-size: 25px;
+    font-family: 'Almarai', sans-serif;
+}
+
+.contacto .caja2 img{
+    width: 100px;
+    height: 100px;
+    justify-content: right;
+}
+
+.inicio{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.caja3{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #fff;
+
+}
